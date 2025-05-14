@@ -3,7 +3,6 @@ input = sys.stdin.readline
 
 N, K = map(int, input().split())
 arr = list(map(int, input().split()))
-result = -1
 cnt = 0 
 
 for i in range(N-1, 0, -1):
